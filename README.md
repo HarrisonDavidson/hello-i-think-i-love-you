@@ -1,4 +1,4 @@
-# Lovegame
+# H E L L O.  I  T H I N K  I  L O V E  Y O U.
 
 This is an analog horror game which uses 
 ASCII graphics and boolean questions to 

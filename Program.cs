@@ -1,8 +1,10 @@
-﻿// I have no idea why I need this. I assume it's something like an import of a library? 
+﻿using System;
 
-using System;
-
-// Game intro screen
+    Main();
+    static void Main()
+    {
+        MainFunction();
+        void MainFunction(){
 Console.WriteLine("______________________________________________");
 Console.WriteLine();
 Console.WriteLine();
@@ -12,7 +14,7 @@ GameSays("H E L L O.  I  T H I N K  I  L O V E  Y O U.");
 
 AskQuestion("Continue?", "H E L L O.  I  T H I N K  I  L O V E  Y O U.", "H E L L O.  I  T H I N K  I  L O V E  Y O U." );
 AskQuestion("Do you love me?", "Really? It seems very unlikely.", "I KNEW IT !!!");
-
+}
 
 void GameSays(string message)
 {
@@ -46,7 +48,7 @@ Adjust your window to 78 W x 28 L
 
 AskQuestion("Do you hate me?", "Yay!", "You should try it!");
 AskQuestion("Are you afraid of me?", "Don't be scared, dear.", "You will be...oh, yes, you will be...");
-AskQuestion("Do you want to know a secret?", "If you want more, you'll have to ignore me.", "Secrets are the best, I love to share them!");
+AskQuestion("Do you want to know a secret?", "If you want more, you'll have to ignore. (Ln 400)", "Secrets are the best, I love to share them!");
 
 
 void MooseSays(string message)
@@ -137,4 +139,7 @@ bool MooseAsks(string question)
     {
         return false;
     }
+
 }
+
+    }

@@ -46,7 +46,7 @@ Adjust your window to 78 W x 28 L
 
 AskQuestion("Do you hate me?", "Yay!", "You should try it!");
 AskQuestion("Are you afraid of me?", "Don't be scared, dear.", "You will be...oh, yes, you will be...");
-AskQuestion("Do you want to know a secret?", "I love secrets...", "Secrets are the best, I love to share them!");
+AskQuestion("Do you want to know a secret?", "If you want more, you'll have to ignore me.", "Secrets are the best, I love to share them!");
 
 
 void MooseSays(string message)

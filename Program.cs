@@ -8,7 +8,7 @@ Console.WriteLine();
 Console.WriteLine();
 
 
-GameSays("Lovegame");
+GameSays("H E L L O.  I  T H I N K  I  L O V E  Y O U.");
 
 AskQuestion("Continue?", "H E L L O.  I  T H I N K  I  L O V E  Y O U.", "H E L L O.  I  T H I N K  I  L O V E  Y O U." );
 AskQuestion("Do you love me?", "Really? It seems very unlikely.", "I KNEW IT !!!");
@@ -39,7 +39,7 @@ void GameSays(string message)
 
 A  G A M E  B Y  H A R R I S O N  D A V I D S O N
 
-Adjust your window to 75 W x 28 L
+Adjust your window to 78 W x 28 L
     ");
 }
 
